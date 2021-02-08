@@ -1,0 +1,32 @@
+# SIGECOEL - Sistema de Gestão de Comércio Eletrônico (SIGECOELMOB)
+
+	+ Funcionalidades
+
+		+ Permitir gerenciar comércio eletrônico (vendas de produtos)
+
+	+ Tecnologias
+
+		- Node v12.18.2
+		- Ionic v3.19.0
+		- Cordova v7.1.0
+
+	+ Comandos
+
+		- npm install -g ionic@3.19.0
+		- npm install -g cordova@7.1.0
+		- npm install json-server --save 
+
+			- json-server --watch sigecoel.database.json --port 9090
+
+		- ionic start SIGECOEL sidemenu
+		- ionic serve
+
+		- cd /opt/google/chrome/ && ./chrome --app=http://localhost:8100/
+
+	+ Versionamento
+
+		git status
+		git add *
+		git commit -a -m $'SIGECOELMOB-16085702202117 \n - Versionamento inicial do projeto'
+		git remote add origin https://github.com/quintinno/SIGECOELMOB.gi
+		git push --set-upstream origin master
