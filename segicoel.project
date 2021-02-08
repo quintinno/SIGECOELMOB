@@ -25,8 +25,18 @@
 
 	+ Versionamento
 
-		git status
-		git add *
-		git commit -a -m $'SIGECOELMOB-16085702202117 \n - Versionamento inicial do projeto'
-		git remote add origin https://github.com/quintinno/SIGECOELMOB.gi
-		git push --set-upstream origin master
+		-- Versionamento Inicial
+
+			git status
+			git add *
+			git commit -a -m $'SIGECOELMOB-16085702202117 \n - Versionamento inicial do projeto'
+			git remote add origin https://github.com/quintinno/SIGECOELMOB.git
+			git push --set-upstream origin master
+
+		-- Criar Nova Branch
+
+			git fetch && git pull
+			git checkout -b SIGECOELMOB-33080402202118
+			git add *
+			git commit -a -m $'SIGECOELMOB-33080402202118 \n - Implementação inicial do projeto'
+			git push --set-upstream origin SIGECOELMOB-33080402202118

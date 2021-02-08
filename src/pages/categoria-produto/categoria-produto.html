@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Categoria do Produto</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  
+  <ion-list>
+
+    <button ion-item *ngFor="let categoria_produto_ of categoriaProdutoList">
+      <ion-thumbnail item-start>
+        <img src="{{categoria_produto_.url_imagem_categoria_produto}}" />
+      </ion-thumbnail>
+      <h2>{{categoria_produto_.descricao}}</h2>
+    </button>
+
+  </ion-list>
+
+</ion-content>

@@ -1,0 +1,43 @@
+{
+  "categoria-produto": [
+    {
+      "id": 1,
+      "descricao": "Informática",
+      "url_imagem_categoria_produto": "https://images-americanas.b2w.io/produtos/01/00/img/1772549/2/1772549247_1GG.jpg"
+    },
+    {
+      "id": 2,
+      "descricao": "Eletrônicos",
+      "url_imagem_categoria_produto": "https://images-americanas.b2w.io/produtos/01/00/img/2638610/3/2638610300_1GG.jpg"
+    },
+    {
+      "id": 3,
+      "descricao": "Smarthphone",
+      "url_imagem_categoria_produto": "https://images-americanas.b2w.io/produtos/01/00/img/134218/1/134218179_1GG.jpg"
+    },
+    {
+      "id": 4,
+      "descricao": "Periféricos",
+      "url_imagem_categoria_produto": "https://images-americanas.b2w.io/produtos/01/00/img/49036/1/49036132_1GG.jpg"
+    },
+    {
+      "id": 5,
+      "descricao": "Componentes",
+      "url_imagem_categoria_produto": "https://images-americanas.b2w.io/produtos/01/00/item/133766/8/133766827_1GG.jpg"
+    }
+  ],
+  "usuario-sistema": [
+    {
+      "id": 1,
+      "usuario": "administrador",
+      "senha": "administrador",
+      "token": ""
+    },
+    {
+      "id": 2,
+      "usuario": "desenvolvimento",
+      "senha": "desenvolvimento",
+      "token": ""
+    }
+  ]
+}

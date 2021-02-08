@@ -1,0 +1,67 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title class="centralizar-texto">Sistema de Pedidos</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <img src="assets/imgs/logomarca.png" alt="">
+
+  <form>
+
+    <ion-item>
+      <ion-label stacked>Usuário</ion-label>
+      <ion-input type="text" [(ngModel)]="usuarioSistema.usuario" name="usuario"></ion-input>
+    </ion-item>
+  
+    <ion-item>
+      <ion-label stacked>Senha</ion-label>
+      <ion-input type="password" [(ngModel)]="usuarioSistema.senha" name="senha"></ion-input>
+    </ion-item>
+
+    <button ion-button block (click)="realizarLogin()">Acessar</button>
+  
+  </form>
+
+  <button ion-button block outline>Registrar</button>
+  
+</ion-content>
+
+<!-- <ion-header no-border>
+  <div class="login-header ion-padding">
+    <img class="logo" src="assets/imgs/logomarca.png" />
+  </div>
+</ion-header>
+
+<ion-content>
+  <div class="center">
+    <div heading-column-lr>
+      <h1 big-heading>Acessar</h1>
+      <h2 small-heading>Registrar</h2>
+    </div>
+    <ion-label>
+    </ion-label>
+
+    <ion-item transparent>
+      <img icon-small src="" />
+      <ion-input type="text" [(ngModel)]="email" placeholder="Usuário"></ion-input>
+    </ion-item>
+
+    <ion-item transparent>
+      <img icon-small src="" />
+      <ion-input type="password" [(ngModel)]="senha" placeholder="Senha"></ion-input>
+    </ion-item>
+
+    <ion-label class="forget-password">Recuperar Senha</ion-label>
+
+    <div linespace></div>
+
+    <button color="primary" shape="round" fill="solid" size="large" expand="block" class="ion-button-class">Acessar</button>
+
+    <ion-label class="ion-text-center">Não tem conta ?
+      <span class="link-button">Cadastrar</span>
+    </ion-label>
+    
+  </div>  
+</ion-content> -->
